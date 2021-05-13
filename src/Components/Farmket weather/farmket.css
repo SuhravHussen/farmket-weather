@@ -1,0 +1,49 @@
+.farmket-container{
+    position: absolute;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    background-image: url('../../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 10px;
+    width: 20%;
+    height: 50%;
+
+}
+.farmket-container h1{
+    color: azure;
+}
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs input{
+    width: 65%;
+    border: none;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.inputs button {
+    border: none;
+    color: aliceblue;
+    background-color: #131b2b;
+    border-radius: 5px;
+    margin: 10px 5px;
+    width: 65%;
+    padding: 10px;
+}
+form{
+    margin-left: 35%;
+    width: 100%;
+}
+.weather-info{
+    color: cornsilk
+}
